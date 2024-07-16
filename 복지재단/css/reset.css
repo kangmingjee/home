@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'LINESeedKR-Bd';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/LINESeedKR-Bd.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+ul, li, ol{
+    list-style: none;
+}
+
+html, body{
+    height: 100%;
+}
+
+img{
+    vertical-align: top;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+.clear_fix::before,
+.clear_fix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+body{
+    font-size: 14px;
+    color: #333;
+    font-family: 'LINESeedKR-Bd';
+}
